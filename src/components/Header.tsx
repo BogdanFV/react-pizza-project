@@ -14,14 +14,14 @@ const Header = () => {
             <img width="60" src={logoSvg} alt="Pizza logo"></img>
             <div>
               <h1>Proto Pizza</h1>
-              <p>You wouldn't find better</p>
+              <p>You wouldn't find better😉</p>
             </div>
           </div>
         </Link>
         {/* <Search searchValue={searchValue} setSearchValue={setSearchValue}/> */}
         <div className="header__cart">
           <Link to="/cart" className="button button--cart">
-            <span>520 ₽</span>
+            <span>10250 ₽</span>
             <div className="button__delimiter"></div>
             <img width="20" src={cartIcon} alt="Cart icon"></img>
             <span>3</span>
