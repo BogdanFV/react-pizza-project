@@ -2,10 +2,10 @@ import React from "react";
 
 import './scss/app.scss';
 
-import Header from './components/Header.tsx'
-import Home from "./pages/Home.tsx";
-import Cart from "./pages/Cart.tsx"
-import NotFound from "./pages/NotFound.tsx";
+import Header from './components/Header.jsx'
+import Home from "./pages/Home.jsx";
+import Cart from "./pages/Cart.jsx"
+import NotFound from "./pages/NotFound.jsx";
 
 import './scss/app.scss'
 import { Route, Routes } from "react-router-dom";
